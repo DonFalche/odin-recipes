@@ -1,0 +1,104 @@
+/*this stylesheet aplies to all the recipes*/
+
+body{
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 300%;
+    color: white;
+}
+
+/*example image display */
+#imagelasagna{
+    width: 400px; /*container size*/
+    height: 300px;
+    overflow: hidden;  /*container posittion*/
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%; /*smooth borders*/
+    background-image: url(img/lasagna.jpeg); /*image*/
+    background-position: center; /*image position within the container*/
+    background-size: cover;
+}
+
+/*same as previous*/
+#imagemilanesa{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    background-image: url(img/milanesa.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*same as previous*/
+#imagesmoothie{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    background-image: url(img/smoothie.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*background image display*/
+#bglasagna{
+    background-image: url(img/lasagna.jpeg); /*image*/
+    background-position: center; /*image position*/
+    background-size: cover; /*image cover all the container*/
+    height: auto; /*container height*/
+}
+
+/*same as previous*/
+#bgmilanesa{
+    background-image: url(img/milanesa.jpeg);
+    background-position: center;
+    background-size: cover; 
+    height: auto;
+}
+
+/*same as previous*/
+#bgsmoothie{
+    background-image: url(img/smoothie.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+/*blur effect is put in front of the background image in order to make it blur*/
+.blur{
+    background: rgba(255, 255, 255, 0,2);
+    backdrop-filter: blur(8px);
+    height: 100%;
+    width: 100%;
+}
+
+.subtitle{
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+ul,
+ol,
+h2{
+    margin-left: 15px;
+}
+
+
+.instructions{
+    width: 75%;
+}
