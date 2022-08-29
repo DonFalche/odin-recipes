@@ -1,6 +1,10 @@
 /*this stylesheet aplies to all the recipes*/
 
 body{
+    margin: 0;   
+}
+
+body{
     background-color: white;
 }
 
@@ -72,6 +76,7 @@ h1{
     background-size: cover;
     background-position: center;
     height: auto;
+
 }
 
 /*blur effect is put in front of the background image in order to make it blur*/
@@ -99,6 +104,11 @@ h2{
 }
 
 
-.instructions{
-    width: 75%;
+.instructions, .ingredients{
+    max-width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px solid orange;
+    margin-top: 10px;
 }
+
